@@ -11,7 +11,7 @@ setuptools.setup(
   description='DumbDisplay Wifi Bridge for DumbDisplay Arduino Lirary',
   long_description=long_description,
   long_description_content_type="text/markdown",
-  url='https://github.com/trevorwslee/MicroPython-DumbDisplay',
+  url='https://github.com/trevorwslee/DDWifiBridge',
   project_urls = {
   },
   license='MIT',
