@@ -1,5 +1,5 @@
 
-DumbDispaly WIFI Bridge (DDWifiBridge) is a tool that accompanies DumbDisplay Arduino Library;hence, you might be interested in DDWifiBridge in the context of DumbDisplay Arduino Library -- https://github.com/trevorwslee/Arduino-DumbDisplay
+DumbDispaly WIFI Bridge (DDWifiBridge) is a tool that accompanies DumbDisplay Arduino Library;hence, you might be interested in DDWifiBridge in the context it -- https://github.com/trevorwslee/Arduino-DumbDisplay
 
 
 Very likely you will be using your desktop computer (Windows) for Arduino development, which will be connecting to your Arduino board via Serial connection. Wouldn't it be nice to be able to connect to DumbDisplay similarly, via the same Serial wiring as well?
