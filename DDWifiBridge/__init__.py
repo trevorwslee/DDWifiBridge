@@ -1,2 +1,2 @@
-# from .ddbridge import main
-# main()
+from . import ddbridge
+ddbridge.main()
