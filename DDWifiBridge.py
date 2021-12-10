@@ -5,8 +5,5 @@
 
 from DDWifiBridge import ddbridge
 
-# import sys, os
-# sys.path.append(os.__file__)
-
 if __name__ == "__main__":
     ddbridge.main()
