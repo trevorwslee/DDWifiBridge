@@ -3,7 +3,8 @@ import sys, time
 from serial.tools.list_ports import comports
 
 
-import ddbcore
+#import ddbcore
+from . import ddbcore
 
 def PrintLogMessage(msg):
     print("... " + msg)
