@@ -1,3 +1,3 @@
-import DDWifiBridge
+import ddbridge
 
-DDWifiBridge.main()
+ddbridge.main()
