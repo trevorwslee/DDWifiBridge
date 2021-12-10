@@ -9,7 +9,8 @@ import threading
 import configparser
 import os
 
-import ddbmod
+#import ddbmod
+from . import ddbmod
 
 class DDUserInterface:
     def initialize(self):

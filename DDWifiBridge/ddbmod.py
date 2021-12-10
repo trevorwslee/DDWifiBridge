@@ -3,8 +3,8 @@ import socket
 import threading
 import time
 
-from jsonparse import JsonStreamParserCore
-
+#from jsonparse import JsonStreamParserCore
+from . import jsonparse
 
 
 _LOG_TUNNEL = True
@@ -26,7 +26,7 @@ class DDBridge:
     def insertLogLine(self, log_line):
         self._insertLine('=', log_line)
     def count(self):
-        return self._count();
+        return self._count()
     def transportLine(self, pushback_if_failed = False):
         while True:
             ori_line = self._popLine()

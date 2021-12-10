@@ -22,7 +22,7 @@ setup(
   packages=find_packages('.'),
   entry_points={
         'console_scripts': [
-            'DDWifiBridge = ddbridge:main',
+            'DDWifiBridge = DDWifiBridge.ddbridge:main',
         ],
   }
 )

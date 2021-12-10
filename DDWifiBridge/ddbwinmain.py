@@ -4,8 +4,8 @@ import tkinter as tk
 import tkinter.ttk as ttk
 import tkinter.scrolledtext as st
 
-import ddbcore
-
+#import ddbcore
+from . import ddbcore
 
 # def Connect(port, baud):
 #     print("Connect to", port, "with baud rate", baud)

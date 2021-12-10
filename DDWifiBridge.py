@@ -3,7 +3,10 @@
 # . in Linux system, access serial port will need access right ... in such case ...
 #       sudo usermod -a -G dialout <user>
 
-import ddbridge
+from DDWifiBridge import ddbridge
+
+# import sys, os
+# sys.path.append(os.__file__)
 
 if __name__ == "__main__":
     ddbridge.main()
