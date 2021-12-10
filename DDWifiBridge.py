@@ -6,7 +6,7 @@
 import sys, getopt
 
 
-if __name__ == "__main__":
+def main():
     options = None
     if len(sys.argv) > 1:
         options, _ = getopt.getopt(sys.argv[1:], "ip:b:w:", ["port=", "baud=", "wifiport="])
@@ -45,6 +45,7 @@ if __name__ == "__main__":
             import ddbwinmain
             param_dict = {"port": port, "baud": baud, "wifiPort": wifiPort }
             ddbwinmain.RunDDBridgeWinMain(param_dict)
-else:
-    print("This is not a module!")
 
+
+if __name__ == "__main__":
+    main()
