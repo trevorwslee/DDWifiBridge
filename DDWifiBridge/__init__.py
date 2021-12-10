@@ -1,3 +1,3 @@
-import ddbridge
+from .ddbridge import main
 
-ddbridge.main()
+main()
