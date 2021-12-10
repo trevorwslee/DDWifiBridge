@@ -19,5 +19,10 @@ setup(
   long_description_content_type="text/markdown",
   url='https://github.com/trevorwslee/DDWifiBridge',
   license='MIT',
-  packages=find_packages('.')
+  packages=find_packages('.'),
+  entry_points={
+        'console_scripts': [
+            'DDWifiBridge = ddbridge:main',
+        ],
+  }
 )
