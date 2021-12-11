@@ -37,5 +37,5 @@ class DDClUserInterface(ddbcore.DDUserInterface):
     def printControlMessage(self, msg):
         PrintControlMessage(msg)
 
-if __name__ == "__main__":
-    print("Please run DDClWifiBridge.py instead!!!")
+# if __name__ == "__main__":
+#     print("Please run DDClWifiBridge.py instead!!!")
